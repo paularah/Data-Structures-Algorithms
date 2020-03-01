@@ -1,0 +1,4 @@
+N/B: Implementation for the second part of the assignment(stacks/queues) is already done for with a sinfglylist linked list in week 4, hence it absence.
+
+Prepending, appending and pop First for a singly linked list is O(1). while pop last is O(n). This because we'd have to traverse the entire linked list up pto the second to the last element to know the previous node before the last node. This same for a doubly linked list except that in a doubly linked list, since each node has a reference to the previous node, we can get the second to the last node and make it the tail. So, for a doubly linked list popping last the node is 0(1) as opposed to O(n) found in a singlylinkedlist. 
+

@@ -1,0 +1,22 @@
+for My specific implementation of the len method, the time complexity is O(n). Ideally this should be O(1). The space comlexity for my implemenation is O(1). 
+
+The time and space complexity of the get method is O(1)
+
+The time and space complexity of the set method is O(1)
+
+The time and space complexity of the add and del method for the dynamic array object is O(1) but can potentially be O(n) if we have to double the size to accomodate the new element that is being added.
+
+The time time complexity for the contains function is O(n) while the space complexity is o(1)
+
+The time and space complexity for the reverse function is both O(n). Since I am traversing through the array and I am not reversing in place.
+
+The time and space complexity of the insert function is both O(n)
+
+
+Inserting in an associative array is O(n)
+Removing is O(n)
+modifying is O(n)
+looking up is O(n)
+
+This is because we have to transverse through and compare keys before we can do anything.
+
