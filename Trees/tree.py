@@ -38,3 +38,16 @@ class BST:
                     current.right = newNode
                 else:
                     current = current.right
+
+    def find(self, value):
+        if self.root == None:
+            return False
+        current = self.root
+        while current != None:
+            if current.value == value:
+                return current
+            elif current.value < value:
+                current = current.left
+            else:
+                current = current.right
+        return None
