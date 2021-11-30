@@ -40,5 +40,3 @@ class AssArray:
     # Overriding the string magic method to allow us print our associative array object
     def __str__(self):
         return str(self.as_array)
-
-
