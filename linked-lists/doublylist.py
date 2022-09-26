@@ -15,14 +15,15 @@ class DoublyLinkedList:
 
     
     def setHead(self, node):
-       if self.head == None:
-           self.head = node
-           self.tail = node 
-       else:
-           currentHead = self.head 
-           newHead = node 
-           newHead.next = currentHead 
-           self.head = newHead
+    #    if self.head == None:
+    #        self.head = node
+    #        self.tail = node 
+    #    else:
+    #        currentHead = self.head 
+    #        newHead = node 
+    #        newHead.next = currentHead 
+    #        self.head = newHead
+         pass 
 
     def setTail(self, node):
         
@@ -37,6 +38,8 @@ class DoublyLinkedList:
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        currentTail.next = newTail 
 
     def insertBefore(self, node, nodeToInsert):
+
+        if node == self.head:
         
     def insertAfter(self, node, nodeToInsert):
         # Write your code here.
