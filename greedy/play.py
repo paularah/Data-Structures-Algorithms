@@ -1,3 +1,6 @@
+"""
+https://leetcode.com/problems/two-city-scheduling/description/
+"""
 def twoCitySchedule(costs):
 
     diffs = []
