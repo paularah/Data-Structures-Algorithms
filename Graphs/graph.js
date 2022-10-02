@@ -29,4 +29,27 @@ class Grpah {
         }
         delete this.adjacencyList[vertex]
     }
+
+    DFS(start){
+        result = []
+        visited = {}
+        let adjacencyList = this.adjacencyList
+
+        function dfsRecur(vertex){
+            if (!vertex) return null 
+            visited[vertex] =  true
+            result.push(vertex) 
+            adjacencyList.forEach((neigbor) => {
+                if (!visited[neigbor]){
+                    return dfsRecur(neigbor)
+                    
+                }
+            })
+        } 
+
+        dfsRecur(start)
+        return result
+    }
 }
+
+
