@@ -50,6 +50,23 @@ class Grpah {
         dfsRecur(start)
         return result
     }
+
+    DFS_I(start) {
+        let stack = [start]
+        let result = []
+        let visited = {}
+        let currentVertex;
+
+        visited[start] = true 
+
+        while (stack.length){
+            currentVertex =  stack.pop()
+            this.adjacencyList[currentVertex].forEach(neigbor => {
+                if !visited[neigbor]
+            })
+        }
+
+    }
 }
 
 

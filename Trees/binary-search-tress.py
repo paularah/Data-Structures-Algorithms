@@ -38,7 +38,6 @@ class BST:
                     current.right = newNode
                 else:
                     current = current.right
-    
 
     def find(self, value):
         if self.root == None:
@@ -53,9 +52,10 @@ class BST:
                 current = current.right
         return None
     ""
+
     def BFS(self):
         result = []
-        queue = [] 
+        queue = []
         node = self.root
         queue.append(node)
 
@@ -66,7 +66,7 @@ class BST:
                 queue.append(node.left)
             if node.right:
                 queue.append(node.right)
-        return result 
+        return result
 
 
 tree = [
